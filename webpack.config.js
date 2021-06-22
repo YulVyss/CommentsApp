@@ -5,7 +5,9 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   devServer: {
-    clientLogLevel: 'none'
+    contentBase: path.join(__dirname, 'build'),
+    compress: true,
+    port: 9000,
   },
   entry: './src/index.js',
   output: {
