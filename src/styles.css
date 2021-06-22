@@ -1,0 +1,96 @@
+body {
+	overflow-x: hidden;
+	background: url(background.jpg) 0 / auto repeat;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	text-align: center;
+	color: #004A7F;
+	font-size: 50px;
+}
+.wrapper {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.comment {
+	width: 70%;
+	margin: 20px 20px 0;
+	padding: 10px;
+	background-color: #FFFBD3;
+	border: 1px solid #004A7F;
+	border-radius: 10px;
+}
+
+.author {
+	color: #004A7F;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.text {
+	font-size: 18px;
+}
+.date, .time {
+	text-align: right;
+	color: gray;
+	font-size: 12px;
+}
+button.delete, .submit {
+	padding: 8px;
+  border-radius: 20px;
+  border-style: none;
+  font: bold  16px sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+}
+button.delete {
+	background-color: #004A7F;
+} 
+.submit {
+	background-color: #FF8121;
+}
+.comments {
+	padding-bottom: 300px;
+}
+.wrapper-bottom {
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	background-color: #F4EFDC;
+}
+.addComment {
+	width: 70%;
+	padding: 10px;
+}
+input.MyName {
+	margin: 20px 0 10px;
+	border-radius: 5px;
+	border-style: none;
+	border: 1px solid #FF6849;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+textarea {
+	width: 100%;
+	border-radius: 5px;
+	border-style: none;
+	border: 1px solid #FF6849;
+	font-size: 20px;
+}
+
+.lable {
+	font-size: 18px;
+	color: #004A7F;
+	padding-right: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+	.wrapper {
+		display: block;
+	}
+	button.delete, .submit {
+		margin: 10px 20px;
+	}
+}

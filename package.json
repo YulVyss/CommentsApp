@@ -1,0 +1,37 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "Simple chat in JavaScript and React",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "gulp-minify": "^3.1.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yulia_V",
+  "license": "ISC"
+}
